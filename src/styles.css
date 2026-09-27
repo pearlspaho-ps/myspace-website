@@ -1,0 +1,22 @@
+body { margin:0; background:#1b0d2e; color-scheme: light; }
+input, textarea, select { background:#fff; color:#1a1a1a; }
+a { color:#0a44b5; text-decoration:underline; }
+a:hover { color:#e0169b; }
+@keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+@keyframes marq { from{transform:translateX(100%)} to{transform:translateX(-100%)} }
+@keyframes spin { to{transform:rotate(360deg)} }
+@keyframes bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+@keyframes shake { 0%,100%{transform:translate(0,0) rotate(0)} 20%{transform:translate(-6px,2px) rotate(-4deg)} 40%{transform:translate(6px,-2px) rotate(4deg)} 60%{transform:translate(-4px,1px) rotate(-2deg)} 80%{transform:translate(4px,-1px) rotate(2deg)} }
+@keyframes swirl { 0%,100%{opacity:0.55;transform:scale(1)} 50%{opacity:0.9;transform:scale(1.06)} }
+@keyframes glow { 0%,100%{text-shadow:0 0 6px #ff4fd8,0 0 14px #ff4fd8} 50%{text-shadow:0 0 12px #6ef7ff,0 0 24px #6ef7ff} }
+
+/* hover states (inline styles set the base look, so these need !important) */
+.h-nav:hover { color:#ffe14d !important; }
+.h-y:hover { background:#ffe14d !important; }
+.h-yb:hover { background:#ffe14d !important; border-color:#b37800 !important; }
+.h-yt:hover { background:#ffe14d !important; color:#6a2c00 !important; }
+.h-c:hover { background:#6ef7ff !important; }
+.h-cd:hover { background:#6ef7ff !important; color:#032 !important; }
+
+/* photo that fills its frame */
+.fill-img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; }
