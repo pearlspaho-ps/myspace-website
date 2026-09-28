@@ -28,6 +28,7 @@ export const PHOTOS = {
   'ms-gal-12': { src: '/img/gal-12.webp', w: 666, h: 643, s: 1, x: 0, y: 0 },
   'ms-c1': { src: '/img/c1.webp', w: 132, h: 130, s: 1, x: 0, y: 0 },
   'ms-c2': { src: '/img/c2.webp', w: 132, h: 110, s: 1, x: 0, y: 0 },
+  'ms-c3': { src: '/img/c3.webp', w: 264, h: 264, s: 1, x: 0, y: 0 },
   'ms-c4': { src: '/img/c4.webp', w: 132, h: 132, s: 1, x: 0, y: 0 }
 };
 
